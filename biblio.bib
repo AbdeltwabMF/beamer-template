@@ -48,11 +48,13 @@
 % cite master’s theses using the mastersthesis entry type.									%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 @phdthesis{qwerty96,
-	author = {O P Qwerty},
-	title = {History of the Goofy Layout of Keyboards},
+  author  = "Rempel, Robert Charles",
+  title   = "Relaxation Effects for Coupled Nuclear Spins",
+  school  = "Stanford University",
 	publisher = {Podunk University Arcana Department},
-	address = {Podunk IN},
-	year = {1996}
+  address = "Stanford, CA",
+  year    = 1956,
+  month   = jun
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -93,6 +95,9 @@
 % sure to include the date of access as shown. Also, keep in mind that certain	%
 % characters common in urls, such as underscores, must be escaped (preceded			%
 % by a backslash, ex.																														%
+% Used if none of the other entry types quite match the source.     			      %
+% Frequently used to cite web pages, but can be anything from lecture slides  	%
+% to personal notes.                                                            %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 @misc{tetazoo05,
 	author = {James Tetazoo},
@@ -147,4 +152,74 @@
 	month = {July},
 	year = {2012},
 	howpublished = {Personal conversation}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% booklet                                                                                                     %
+% A printed work that is bound, but does not have a clearly identifiable publisher or supporting institution. %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@booklet{CitekeyBooklet,
+  title        = "Canoe tours in {S}weden",
+  author       = "Maria Swetla",
+  howpublished = "Distributed at the Stockholm Tourist Office",
+  month        = jul,
+  year         = 2015
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% inbook																																																			%
+% A section, such as a chapter, or a page range within a book.  																						  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@inbook{CitekeyInbook,
+  author    = "Lisa A. Urry and Michael L. Cain and Steven A. Wasserman and Peter V. Minorsky and Jane B. Reece",
+  title     = "Photosynthesis",
+  booktitle = "Campbell Biology",
+  year      = "2016",
+  publisher = "Pearson",
+  address   = "New York, NY",
+  pages     = "187--221"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% inproceedings 																						 	%
+% A paper that has been published in conference proceedings.  %
+% The usage of conference and inproceedings is the same.      %
+% The conference entry was included for Scribe compatibility. %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@inproceedings{CitekeyInproceedings,
+  author    = "Holleis, Paul and Wagner, Matthias and Koolwaaij, Johan",
+  title     = "Studying mobile context-aware social services in the wild",
+  booktitle = "Proc. of the 6th Nordic Conf. on Human-Computer Interaction",
+  series    = "NordiCHI",
+  year      = 2010,
+  pages     = "207--216",
+  publisher = "ACM",
+  address   = "New York, NY"
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% manual                                                                        %
+% A technical manual for a machine software such as would come with a purchase  %
+% to explain operation to the new owner.                                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@manual{CitekeyManual,
+  title        = "{R}: A Language and Environment for Statistical Computing",
+  author       = "{R Core Team}",
+  organization = "R Foundation for Statistical Computing",
+  address      = "Vienna, Austria",
+  year         = 2018
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% mastersthesis                                   %
+% A thesis written for the Master’s level degree. %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@mastersthesis{CitekeyMastersthesis,
+  author  = "Jian Tang",
+  title   = "Spin structure of the nucleon in the asymptotic limit",
+  school  = "Massachusetts Institute of Technology",
+  year    = 1996,
+  address = "Cambridge, MA",
+  month   = sep
 }
